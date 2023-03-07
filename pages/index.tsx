@@ -8,13 +8,13 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
 
-  const testFunct = () => {
+  const testFunct = (a: string) => {
     let x = "pranab bora"
-    console.log(x)
+    console.log(x, a)
   }
 
   React.useEffect(() => {
-    testFunct()
+    testFunct("pranab")
   }, [])
 
 
