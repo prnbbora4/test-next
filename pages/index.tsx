@@ -1,3 +1,4 @@
+import MyComponent from '@/components/MyComponent'
 import React from 'react'
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
   return (
     <>
       <div>
+        <MyComponent />
         {
           data.map((item, index) => {
             return (
